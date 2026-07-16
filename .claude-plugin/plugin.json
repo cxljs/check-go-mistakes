@@ -1,0 +1,9 @@
+{
+  "name": "check-go-mistakes",
+  "description": "Checks a Go project against the 100 common Go mistakes from \"100 Go Mistakes and How to Avoid Them\" (100go.co). Detects which mistakes a codebase makes and explains how to fix each one, respecting the project's Go version (some mistakes are no longer mistakes in newer Go releases).",
+  "version": "1.0.0",
+  "author": {
+    "name": "check-go-mistakes"
+  },
+  "keywords": ["go", "golang", "lint", "code-review", "100go", "best-practices", "mistakes"]
+}

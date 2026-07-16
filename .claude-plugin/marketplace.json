@@ -1,0 +1,17 @@
+{
+  "name": "check-go-mistakes-marketplace",
+  "owner": {
+    "name": "check-go-mistakes"
+  },
+  "metadata": {
+    "description": "Marketplace for the check-go-mistakes Claude Code plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "check-go-mistakes",
+      "description": "Checks a Go project for common Go mistakes and explains how to fix each one.",
+      "source": "."
+    }
+  ]
+}
