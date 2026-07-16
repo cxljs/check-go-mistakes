@@ -43,22 +43,17 @@ skills/check-go-mistakes/
 
 ## Installation
 
-The skill is a plain `SKILL.md` plus scripts, so any code agent that supports the skills
-format can use it. It is also distributed as a Claude Code plugin.
+Distributed as a [Claude Code](https://claude.com/claude-code) plugin. In a Claude Code
+session, run:
 
-### As a Claude Code plugin
-
-Add this directory as a plugin (e.g. via `/plugin` → add the marketplace/path, or drop it
-into your plugin path). Claude Code auto-discovers the `skills/check-go-mistakes` skill.
-
-### As a standalone skill
-
-Copy the skill folder into your agent's skills directory (e.g. `~/.claude/skills/` for
-Claude Code):
-
-```bash
-cp -r skills/check-go-mistakes ~/.claude/skills/check-go-mistakes
 ```
+/plugin marketplace add cxljs/check-go-mistakes
+/plugin install check-go-mistakes
+```
+
+This auto-discovers the `skills/check-go-mistakes` skill and exposes the
+`/check-go-mistakes` command. For other agents, the skill is a plain `SKILL.md` plus
+scripts - copy `skills/check-go-mistakes/` into your agent's skills directory.
 
 ## Usage
 
