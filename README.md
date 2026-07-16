@@ -43,7 +43,7 @@ skills/check-go-mistakes/
 
 ## Installation
 
-Distributed as a [Claude Code](https://claude.com/claude-code) plugin. In a Claude Code
+Distributed as a Claude Code plugin. In a Claude Code
 session, run:
 
 ```
